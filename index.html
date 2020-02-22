@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/75a6bcb096.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-crud">
+    <div class="container-head">
+        <div class="add-button"><i class="fas fa-plus"></i> Add more user</div>
+        <div class="search-div">
+            <p class="search-text">Search by name: </p>
+            <input class="search" type="text" placeholder="Type name to search">
+        </div>
+    </div>
+    <table class="first-table">
+        <tr class="first-tr">
+          <th>Name</th>
+          <th>Country</th>
+          <th>Salary</th>
+          <th>Email</th>
+          <th> </th>
+        </tr>
+    <tr>
+         <th class="total">Total</th>
+         <td></td>
+         <td class="td-salary"></td>
+    </table>
+<div class="new-user">
+    <h3 class="add-user">Add user</h3>
+    <div class="add">
+        Name
+        <input type="text" class="add-input" placeholder="Edit name ">
+    </div>
+    <div class="add">
+        Country
+        <input type="text" class="add-input" placeholder="Edit country "></div>
+    <div class="add">
+        Salary
+        <input type="number" class="add-input" placeholder="Edit salary "></div>
+    <div class="add">
+        Email
+        <input type="text" class="add-input" placeholder="Edit email"></div>
+        <div class="save-cancel">
+            <div class="save">
+            <i class="fas fa-pen"></i> &nbsp; Save change
+        </div>
+        <div class="cancel">
+            Cancel
+        </div></div>
+        
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

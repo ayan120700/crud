@@ -1,0 +1,163 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-button{
+    color: white;
+    background-color: rgb(46, 180, 46);
+    font-size: 14px;
+    height: 16px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-button:hover{
+    background-color: rgb(31, 121, 31);
+}
+.container-head{
+    display: flex;
+    justify-content: space-between;
+    width: 912px;
+    height: 50px;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
+.search-div{
+    display: flex;
+}
+.search-text{
+    font-size: 14px;
+    margin-right: 5px;
+}
+.search{
+    font-size: 14px;
+    height: 25px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+::placeholder {
+    color: rgb(151, 150, 150);
+  }
+.fa-plus{
+    margin-right: 5px;
+}
+td{
+    text-align: center;
+}
+th{
+    margin-bottom: 5px;
+    border-bottom: 2px solid lightgray;
+    width: 130px;
+    font-size: 14px;
+    height: 30px;
+    padding-left: 5px;
+}
+th:nth-of-type(4){
+    width: 250px;
+}
+th:nth-of-type(5){
+    width: 250px;
+}
+.total{
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+.total-td{
+    text-align: center
+}
+.add-user{
+    font-size: 24px;
+    font-weight: 100;
+    margin-block-end: 10px;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bold;
+}
+.add-input{
+    width: 912px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 189, 189);
+}
+.save-cancel{
+    display: flex;
+}
+.save{
+    background-color:#337ab7;
+    font-size: 15px;
+    color: white;
+    width: fit-content;
+    height: 25px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-right: 10px;
+    /* cursor: no-drop;
+    opacity: .7; */
+}
+.cancel{
+    background-color:#337ab7;
+    font-size: 15px;
+    color: white;
+    width: fit-content;
+    height: 25px;
+    padding-top: 8px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.new-user{
+    display: none
+}
+.new-tr{
+    font-size: 14px;
+    text-align: center;
+    height: 35px;
+}
+.edit-button{
+    background-color: #337ab7;
+    width: 40px;
+    float: left;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.edit-button:hover{
+    background-color: #225581;
+}
+.delete-button:hover{
+    background-color: rgb(161, 60, 43);
+}
+.delete-button{
+    background-color: tomato;
+    width: 60px;
+    float: right;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 40px;    
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    cursor: pointer;
+}
